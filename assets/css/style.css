@@ -23,7 +23,7 @@ Project: Bridely
 
 body {
   font-family: "Jost", sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 :root {
   --e-global-color-primary: #000000;
