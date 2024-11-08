@@ -3118,6 +3118,18 @@ h4 {
 }
 }
 @media screen and (max-width: 767px) {
+
+  .gallery-page.events-sec .gallery_content h4 {
+    font-size: 14px !important;
+}
+
+.gallery-page.events-sec .gallery_content .banner-btn a {
+  line-height: 14px;
+  font-size: 12px;
+}
+.gallery-page.events-sec .gallery_content{
+  padding-bottom: 20px;
+}
 .home-header-section .main-header .navbar-collapse .btn-talk a {
   font-size: 16px;
   line-height: 16px;
