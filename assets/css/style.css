@@ -4107,7 +4107,7 @@ a {
 
 .buttons {
   position: absolute;
-  bottom: -105px;
+  bottom: -5px;
   display: flex;
   gap: 20px;
 }
