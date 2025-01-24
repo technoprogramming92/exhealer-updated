@@ -2140,7 +2140,7 @@ a {
 }
 .footer-section::after {
   background: url(../images/footer-design-img.png);
-  content: "";
+
   width: 370px;
   height: 231px;
   position: absolute;
@@ -4142,7 +4142,7 @@ a {
   opacity: 0.5;
 }
 
-.cen{
+.cen {
   text-align: center;
 }
 
