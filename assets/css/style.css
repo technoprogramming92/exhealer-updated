@@ -2114,9 +2114,9 @@ a {
   margin-right: 0px;
   border: none;
 }
-.footer-section .footer-social-icons a i:hover {
+/* .footer-section .footer-social-icons a i:hover {
   background: var(--e-global-color-peach);
-}
+} */
 .footer-section .footer-hearts {
   position: absolute;
   left: 228px;
