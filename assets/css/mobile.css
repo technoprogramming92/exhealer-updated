@@ -1782,7 +1782,7 @@ h6 {
   right: 0px;
   width: 28%;
   top: 50px;
-  z-index: 16;
+  z-index:50;
   padding: 0;
   background:var(--e-global-color-accent);
   border-radius: 0px;
