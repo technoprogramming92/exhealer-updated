@@ -4177,6 +4177,9 @@ a {
   .slider .slides:nth-child(6) {
     left: 360px;
   }
+  .get-in-touch .send_message_form_box_content {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -4186,10 +4189,6 @@ a {
 
   .get-in-touch .send_message_form_box_content {
     display: none;
-  }
-
-  .header {
-    z-index: 1 !important;
   }
 
   #gallery-hero {
@@ -4220,8 +4219,4 @@ a {
 
 #home-header .navbar-toggler {
   margin-right: 20px;
-}
-
-#home-header {
-  z-index: 2000;
 }
