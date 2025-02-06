@@ -4202,16 +4202,17 @@ a {
   #home-hero {
     padding-top: 260px;
   }
+  .header {
+    position: fixed; /* Keeps the header on top */
+  
+    width: 100%;
+    z-index: 1090 !important; /* Higher than hero section */
+    background-color: white; /* Ensure visibility */
+    padding-bottom: 10px;
+  }
 }
 
-.header {
-  position: fixed; /* Keeps the header on top */
 
-  width: 100%;
-  z-index: 1090 !important; /* Higher than hero section */
-  background-color: white; /* Ensure visibility */
-  padding-bottom: 10px;
-}
 
 #gallery-header .navbar-toggler {
   margin-right: 30px;
@@ -4219,4 +4220,8 @@ a {
 
 #home-header .navbar-toggler {
   margin-right: 20px;
+}
+
+#about-counter-section{
+  margin-top: 100px;
 }
