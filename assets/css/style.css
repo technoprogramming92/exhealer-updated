@@ -4183,4 +4183,45 @@ a {
   .gallery-container .slider {
     inset: 80px 20px 80px 20px;
   }
+
+  .get-in-touch .send_message_form_box_content {
+    display: none;
+  }
+
+  .header {
+    z-index: 1 !important;
+  }
+
+  #gallery-hero {
+    padding-top: 110px;
+  }
+
+  #contact-hero {
+    padding-top: 110px;
+  }
+
+  #home-hero {
+    padding-top: 260px;
+  }
+}
+
+.header {
+  position: fixed; /* Keeps the header on top */
+
+  width: 100%;
+  z-index: 1090 !important; /* Higher than hero section */
+  background-color: white; /* Ensure visibility */
+  padding-bottom: 10px;
+}
+
+#gallery-header .navbar-toggler {
+  margin-right: 30px;
+}
+
+#home-header .navbar-toggler {
+  margin-right: 20px;
+}
+
+#home-header {
+  z-index: 2000;
 }
